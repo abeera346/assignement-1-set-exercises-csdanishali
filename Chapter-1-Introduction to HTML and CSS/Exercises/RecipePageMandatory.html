@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Fajitas Recipe</title>
+    <style> 
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.2rem;
+            margin: 0;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            min-height: 100vh;
+        }
+
+        /* General Styling */
+        details {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 2px solid #ddd;
+        }
+
+        summary {
+            font-weight: bold;
+            color: #966548;
+            font-size: 1.3rem;
+            cursor: pointer;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        /* Headers */
+        h1 {
+            color: #966548;
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #966548;
+            font-size: 30px;
+            margin-top: 25px;
+        }
+
+        /* Paragraphs */
+        p {
+            font-size: 22px;
+            font-style: italic;
+            max-width: 600px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Flexbox Layout for Recipe Description and Image */
+        .recipe-container {
+            display: flex;
+            align-items: left;
+            justify-content: space-between;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .description {
+            flex: 1;
+            padding-right: 2rem;
+        }
+
+        .image-container {
+            flex: 1;
+            text-align: right;
+        }
+
+        .image-container img {
+            width: 350px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Recipe Title -->
+    <h1> Easy Chicken Fajitas </h1>
+    <div class="recipe-container">
+        <!-- Recipe Description -->
+        <div class="description">
+            <p>A classic Mexican dish, the chicken fajitas are packed with flavors and easy to
+            make. Tender chicken strips are marinated in a blend of spices and then grilled. 
+            Serve with warm tortillas, your favourite toppings, and a side of salsa or anything of your preference.</p>
+        </div>
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/1266334787/photo/fajitas-de-pollo-chicken-marinated-tortillas-with-onions-and-peppers.jpg?s=2048x2048&w=is&k=20&c=oNhOEfs19C5GYZ7hF-rKpcmSCMLBLrZFD107NHCTPzA= " alt="Fresh Chicken Fajita Ingredients">
+        </div>
+    </div>
+
+    <!-- Ingredients Section -->
+    <h2>Ingredients:</h2>
+    <details>
+        <summary>Click to View Ingredients</summary>
+        <ul>
+            <li>2 boneless, skinless chicken breasts (sliced into strips)</li>
+            <li>1 red bell pepper (sliced)</li>
+            <li>1 green bell pepper (sliced)</li>
+            <li>1 yellow bell pepper (sliced)</li>
+            <li>1 medium onion (sliced)</li>
+            <li>2 tbsp olive oil</li>
+            <li>1 tsp chili powder</li>
+            <li>1 tsp cumin</li>
+            <li>½ tsp garlic powder</li>
+            <li>½ tsp paprika</li>
+            <li>Salt and pepper to taste</li>
+            <li>Juice of 1 lime</li>
+            <li>Flour tortillas</li>
+            <li>Optional: Sour cream, guacamole, shredded cheese</li>
+        </ul>
+    </details>
+
+    <!-- Instructions Section -->
+    <h2>Cooking Instructions:</h2>
+    <details>
+        <summary>Click to View Instructions</summary>
+        <ol>
+            <li>Heat olive oil in a large pan over medium-high heat.</li>
+            <li>Add the sliced chicken and season with chili powder, cumin, garlic powder, paprika, salt, and pepper.</li>
+            <li>Cook the chicken for about 5-7 minutes until browned and fully cooked.</li>
+            <li>Remove the chicken and set it aside.</li>
+            <li>In the same pan, add the sliced peppers and onion.</li>
+            <li>Cook for about 5 minutes until the veggies are soft yet slightly crisp.</li>
+            <li>Return the chicken to the pan and mix everything together.</li>
+            <li>Squeeze fresh lime juice over the fajita mix and stir well.</li>
+            <li>Warm the tortillas in a pan or microwave.</li>
+            <li>Serve the chicken fajita mix in tortillas, adding your favorite toppings.</li>
+            <li>Enjoy your delicious homemade Chicken Fajitas! </li>
+        </ol>
+    </details>
+
+</body>
+</html>
