@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a); /* Dark gradient background */
+    color: #d3d3d3; /* Light grey text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(135deg, #9b4d96, #ce2e94); /* Gradient effect for navbar */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Glowing effect for navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #ff4081; /* Neon pink hover effect */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Page Headers */
+h1, h2, h3 {
+    color: #00e5ff; /* Futuristic cyan color */
+    text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff; /* Glowing text */
+}
+
+/* Sections */
+section {
+    background: rgba(34, 34, 34, 0.9); /* Semi-transparent dark grey background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Cyan glow effect */
+}
+
+/* Links */
+a {
+    color: #ff4081; /* Neon pink color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #00e5ff; /* Cyan color on hover */
+}
+
+/* Styled Button */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    background: linear-gradient(135deg, #00e5ff, #ff4081); /* Gradient button */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Glowing effect */
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ff4081, #00e5ff); /* Reversed gradient on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Review Section */
+article {
+    border-left: 5px solid #ff4081; /* Neon pink border */
+    padding: 20px;
+    margin-bottom: 25px;
+    background: rgba(51, 51, 51, 0.9); /* Darker background with transparency */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 255, 0.7); /* Purple glow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
