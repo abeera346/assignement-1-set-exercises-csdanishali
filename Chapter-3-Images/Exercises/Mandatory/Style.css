@@ -1,0 +1,78 @@
+ /* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #FAF3F0; /* Soft blush pink */
+    color: #6D597A; /* Muted mauve */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+    color: #C06C84; /* Rose pink */
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Image Containers */
+.image-container {
+    background-color: #F2D7EE; /* Pastel lavender-pink */
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Images */
+.image-container img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    filter: brightness(95%) contrast(105%) sepia(10%) hue-rotate(-5deg);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+/* Hover Effects */
+.image-container img:hover {
+    filter: brightness(105%) contrast(115%) saturate(120%);
+    transform: scale(1.07);
+}
+
+/* Links */
+a {
+    color: #C06C84;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #A45D7B;
+}
+
+/* Button Styles */
+.button {
+    background-color: #FFC8DD; /* Pastel pink */
+    color: #6D597A; /* Mauve */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 2px 2px 10px rgba(255, 182, 193, 0.5);
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #FFAFCC; /* Softer pink */
+    transform: scale(1.05);
+}
