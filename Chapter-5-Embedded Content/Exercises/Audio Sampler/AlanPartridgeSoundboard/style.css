@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  background: url('https://img.freepik.com/premium-psd/png-rectangular-decal-with-patterns-musical-notes-with-s-creative-neon-y2k-shape-decorativep_1020495-368908.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000;
+  text-align: center;
+}
+
+header {
+  background-color: white;
+  padding: 1rem;
+  border-bottom: 4px solid crimson;
+}
+
+h1 {
+  color: crimson;
+}
+
+.soundboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sample {
+  background-color: white;
+  border: 6px solid black;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.sample .number {
+  display: block;
+  font-weight: bold;
+}
+
+.sample .duration {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.sample:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.sample.active {
+  background-color: crimson;
+  color: white;
+}
