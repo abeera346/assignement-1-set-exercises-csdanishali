@@ -1,85 +1,106 @@
-
+ /* Base Styling */
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0d0d0d; /* Dark background */
-    color: #b30000; /* Dark red text */
+    background-color: #f4f7f9;  
+    color: #2c3e50;  
 }
 
-/* Navigation */
+/* Navigation Bar */
 nav {
-    background-color: #300000; /* Deep red-black navbar */
-    padding: 10px 0;
+    background-color: #1f2937; 
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #b30000; /* Dark red */
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff0000; /* Blood red */
+    color: #00b4d8; 
 }
 
-/* Header */
+/* Header Section */
 header {
     text-align: center;
-    padding: 80px 20px 20px;
+    padding: 120px 20px 40px;
+    background: linear-gradient(135deg, #1f2937, #111827); 
+    color: #ffffff;
 }
 
-/* Sections */
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.85;
+}
+
+/* Content Section */
 section {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: auto;
-    background: #1a0000; /* Dark reddish background */
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 40px 30px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-    color: #ff0000; /* Blood red section titles */
+    color: #1f2937;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
 }
 
 /* Buttons */
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #400000; /* Dark red button */
-    color: white;
-    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #00b4d8; 
+    color: #ffffff;
     font-weight: bold;
-    border-radius: 5px;
-    transition: 0.3s;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .button:hover {
-    background-color: #ff0000; /* Bright red hover effect */
+    background-color: #009ec2;
+    transform: translateY(-2px);
 }
 
 /* Footer */
 footer {
+    background-color: #1f2937;
+    color: #d1d5db;
     text-align: center;
     padding: 20px;
-    background: #300000; /* Dark red footer */
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+    font-size: 0.95rem;
+    margin-top: 60px;
 }
