@@ -1,18 +1,17 @@
-/* General Styles */
-body {
-    font-family: 'Orbitron', sans-serif; /* Futuristic font */
-    background: linear-gradient(45deg, #0d0d0d, #1a1a1a); /* Dark gradient background */
-    color: #d3d3d3; /* Light grey text */
+ body {
+    font-family: 'Orbitron', sans-serif;  
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);  
+    color: #d3d3d3;  
     margin: 0;
     padding: 0;
 }
 
 /* Navigation Bar */
 nav {
-    background: linear-gradient(135deg, #9b4d96, #ce2e94); /* Gradient effect for navbar */
+    background: linear-gradient(135deg, #311316, #bb2b35);  
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Glowing effect for navbar */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);  
 }
 
 nav ul {
@@ -36,35 +35,33 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ff4081; /* Neon pink hover effect */
-    transform: scale(1.1); /* Slight zoom on hover */
-}
+    background-color: #20050f;  
+    transform: scale(1.1);  
 
 /* Page Headers */
 h1, h2, h3 {
-    color: #00e5ff; /* Futuristic cyan color */
-    text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff; /* Glowing text */
+    color: #e2d1d1; 
+    text-shadow: 0 0 10px #882929, 0 0 20px #ff0000; 
 }
 
 /* Sections */
 section {
-    background: rgba(34, 34, 34, 0.9); /* Semi-transparent dark grey background */
+    background: rgba(34, 34, 34, 0.9);  
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Cyan glow effect */
-}
+    box-shadow: 0 0 15px rgba(255, 0, 17, 0.7);  
 
 /* Links */
 a {
-    color: #ff4081; /* Neon pink color */
+    color: #ff4040;  
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #00e5ff; /* Cyan color on hover */
+    color: #ff0000;  
 }
 
 /* Styled Button */
@@ -72,28 +69,28 @@ a:hover {
     display: inline-block;
     padding: 12px 25px;
     margin-top: 15px;
-    background: linear-gradient(135deg, #00e5ff, #ff4081); /* Gradient button */
+    background: linear-gradient(135deg, #ff0000, #1c0909);  
     color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
     transition: background 0.3s, transform 0.2s ease-in-out;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Glowing effect */
+    box-shadow: 0 0 10px rgba(255, 0, 68, 0.7);  
 }
 
 .button:hover {
-    background: linear-gradient(135deg, #ff4081, #00e5ff); /* Reversed gradient on hover */
-    transform: scale(1.1); /* Slight zoom on hover */
+    background: linear-gradient(135deg, #ff4040, #ff0000);  
+    transform: scale(1.1);  
 }
 
 /* Review Section */
 article {
-    border-left: 5px solid #ff4081; /* Neon pink border */
+    border-left: 5px solid #ff4040;  
     padding: 20px;
     margin-bottom: 25px;
-    background: rgba(51, 51, 51, 0.9); /* Darker background with transparency */
+    background: rgba(51, 51, 51, 0.9);  
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.7); /* Purple glow effect */
+    box-shadow: 0 0 10px rgba(255, 0, 8, 0.7); 
 }
 
 /* Responsive Design */
@@ -114,3 +111,4 @@ article {
         padding: 15px;
     }
 }
+
