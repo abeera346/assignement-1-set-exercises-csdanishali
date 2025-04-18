@@ -1,0 +1,90 @@
+/*spacing and set background and base font styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+  background: linear-gradient(135deg, #ffe4e1, #e0ffff, #fdfd96); 
+  color: #444;
+  text-align: center;
+}
+
+/* Main title styling */
+.title {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: #444;
+}
+
+/* Display for RGB color value */
+.rgb-display {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* Scoreboard container styling */
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 3rem; /* spacing between items */
+  margin: 1.5rem auto;
+  font-size: 1.1rem;
+}
+
+/* Container for color options */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Individual color option styling (circle buttons) */
+.option {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; /* makes it circular */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  border: 3px solid white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Hover effect for color options */
+.option:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Feedback message styling */
+.feedback {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Button styling*/
+button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  background-color: #ffc1cc; 
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #ffb6c1;
+}
+
+/* Utility class to hide elements when needed */
+.hidden {
+  display: none;
+}
