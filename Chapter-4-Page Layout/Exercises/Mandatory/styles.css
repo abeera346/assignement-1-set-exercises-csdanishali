@@ -1,0 +1,124 @@
+ /* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* Header styling */
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Header title styling */
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    text-decoration: underline;
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Navigation links styling */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main content area styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+/* Container for both welcome and lineup sections */
+.content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Welcome section styling */
+.welcome {
+    flex: 2;
+}
+
+/* Welcome heading styling */
+.welcome h2 {
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+    width: fit-content;
+}
+
+/* Welcome image styling */
+.welcome img {
+    width: 100%;
+    height: 350px;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+/* Lineup (aside) section styling */
+.lineup {
+    flex: 1;
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Lineup heading styling */
+.lineup h2 {
+    border-bottom: 3px solid #ffffff;
+    font-weight: bold;
+}
+
+/* Lineup list styling */
+.lineup ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+/* Lineup list item spacing */
+.lineup li {
+    margin-bottom: 40px;
+}
+
+/* Container for images inside lineup */
+.images {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Styling for each image inside lineup */
+.images img {
+    width: 200%; /* Enlarged width */
+    max-width: 220px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+/* Footer styling */
+footer {
+    background-color: #8c15e9;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
